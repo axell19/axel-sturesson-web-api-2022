@@ -8,5 +8,6 @@ namespace axel_sturesson_web_api_2022.Services.GameService
         List<Game> GetAllGames();
         Game GetGameById(int id);
         List<Game> AddGame(Game newGame);
+        List<Game> DeleteGame(int id);
     }
 }
